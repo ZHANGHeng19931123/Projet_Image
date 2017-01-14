@@ -1,12 +1,12 @@
 %% Recognition part
 
-clc;
+clc; 
 clear;
 close all;
 
 %% load image
 
-img = imread('Dataset/2_10.jpg');
+img = imread('Dataset/5_1.jpg');
 figure;imshow(img,[]);
 title('original image');
 
