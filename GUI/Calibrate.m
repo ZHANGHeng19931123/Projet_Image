@@ -60,16 +60,16 @@ guidata(hObject, handles);
 
 % UIWAIT makes Calibration wait for user response (see UIRESUME)
 % uiwait(handles.figure1);
-set(handles.GR,'String','65');
-set(handles.GG,'String','36');
-set(handles.GB,'String','17');
-set(handles.SR,'String','73');
-set(handles.SG,'String','58');
-set(handles.SB,'String','39');
-set(handles.CR,'String','73');
-set(handles.CG,'String','28');
-set(handles.CB,'String','11');
-set(handles.SF,'String','0.019');
+set(handles.GR,'String','208');
+set(handles.GG,'String','148');
+set(handles.GB,'String','87');
+set(handles.SR,'String','152');
+set(handles.SG,'String','131');
+set(handles.SB,'String','113');
+set(handles.CR,'String','194');
+set(handles.CG,'String','124');
+set(handles.CB,'String','94');
+set(handles.SF,'String','0.0705');
 
 % --- Outputs from this function are returned to the command line.
 function varargout = Calibrate_OutputFcn(~, ~, handles) 

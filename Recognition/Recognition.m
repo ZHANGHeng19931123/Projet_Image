@@ -6,13 +6,14 @@ close all;
 
 %% load image
 
-img = imread('Dataset/5_1.jpg');
-figure;imshow(img,[]);
+img = imread('Dataset/1euro_a1.jpg');
+figure;
+imshow(img,[]);
 title('original image');
 
 %% Preprocessing and Segmentation
 
-img = preprocessing(img);
+img1 = preprocessing(img);
 mask = segmentation_3(img);
 figure;imshow(mask.*double(rgb2gray(img)),[]);
 title('mask');
@@ -218,5 +219,5 @@ hold on;
 for i = 1:size(diameters_simp,1)
     text(centroids(i,1),centroids(i,2),num2str(values(i)),'Color','red','FontSize',14, 'FontWeight', 'bold', 'HorizontalAlignment', 'center')
 end
-text(0,0, num2str(value_total),'Color','red','FontSize',14, 'FontWeight', 'bold')
+text(50,50, num2str(value_total),'Color','red','FontSize',14, 'FontWeight', 'bold')
 title('recognition result');

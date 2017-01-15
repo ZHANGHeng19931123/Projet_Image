@@ -24,7 +24,7 @@ Calibration:
                                 R		G		B
 Gold(C10-C50)	208		148		87
 Gold(E2)                	170		126		84
-Silver                      	173		144		119
+Silver                      	152		131		113
 Copper                   	194		124		94
 White                     	189		175		186
 

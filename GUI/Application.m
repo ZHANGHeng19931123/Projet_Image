@@ -1,4 +1,4 @@
-function varargout = Application(varargin)
+  function varargout = Application(varargin)
 % Application MATLAB code for Application.fig
 %      Application, by itself, creates a new Application or raises the existing
 %      singleton*.
